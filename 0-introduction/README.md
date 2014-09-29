@@ -44,5 +44,5 @@ Presence will be verified. Student can miss two labs without giving a reason. Ho
   - `git pull` - fetch changes from remote repository and merge them with your local repository
   - `git add` - add untracked files to commit
   - `git commit -m "Your message"` - commit tracked files to your **local** repository
-  - `git push` - push commits to remote repository 
+  - `git push origin master` - push commits to remote repository 
 6. Change `README.md` file (you may write some joke) and then commit your change and push it to remote repository
