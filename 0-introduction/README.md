@@ -116,3 +116,6 @@ Presence will be verified. Student can miss two labs without giving a reason. Ho
   ```
 7. Q&A
 
+#### Feedback ####
+http://goo.gl/forms/vM1rvczGaW
+
