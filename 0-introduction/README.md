@@ -79,7 +79,8 @@ Presence will be verified. Student can miss two labs without giving a reason. Ho
                       `-- app
                           `-- AppTest.java
   ```
-4. POM and dependencies
+4. POM
+  - dependencies
   ```
   <dependencies>
       <dependency>
