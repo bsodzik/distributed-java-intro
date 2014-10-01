@@ -53,8 +53,6 @@ Presence will be verified. Student can miss two labs without giving a reason. Ho
   - dependency management tool
   - documentation tool
 2. Installation
-  - http://ftp.ps.pl/pub/apache/maven/maven-3/3.2.3/binaries/apache-maven-3.2.3-bin.tar.gz
-  - setup MAVEN_HOME
   - check installation: mvn --version
 3. Quick start
   - mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
@@ -93,7 +91,6 @@ Presence will be verified. Student can miss two labs without giving a reason. Ho
   ```
 5. Commands
   - mvn clean install
-  - mvn clean install -DskipTests
 6. Exercise: Add google guava
   - Search for dependencies in: http://search.maven.org/ or http://mvnrepository.com/
   - code example:
