@@ -1,6 +1,7 @@
 ## Labs 0 - Introduction ##
 
 ### Goal ###
+- Who is who
 - Get familiar with course plan and rules
 - Configure GIT
 - Configure Maven
