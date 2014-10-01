@@ -3,6 +3,7 @@
 ### Goal ###
 - Who is who
 - Get familiar with course plan and rules
+- Propose changes in course plan (if any)
 - Configure GIT
 - Configure Maven
 
@@ -16,7 +17,14 @@
   - Data synchronization
   - Concurrent collections
 2. Java Messaging System (JMS)
+  - JMS Message
+  - Topic/Queue
+  - Durable message
+  - Persistent message
+  - Transactions
 3. REST services
+  - Expose REST API
+  - Consume REST API
 4. Actor model in Akka
 5. In-memory data grid - Hazelcast
 
