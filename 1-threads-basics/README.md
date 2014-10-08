@@ -89,3 +89,9 @@ How to determine whether executor service finished all commands?
 
 1. Print `"FINISHED"` directly after `shutdown` method. Observe output.
 2. Add `awaitTermination` method with reasonable time-out directly after `shutdown` method. Print `"FINISHED"` afterwards. Observe output. To which finishing strategy from exercise 3 would you compare this strategy?
+
+### Resources ###
+
+- [http://docs.oracle.com/javase/tutorial/essential/concurrency/index.html](http://docs.oracle.com/javase/tutorial/essential/concurrency/index.html) - tutorial from Oracle
+- [Thinking in Java](http://www.amazon.co.uk/Thinking-Java-Bruce-Eckel/dp/0131872486/ref=sr_1_1?ie=UTF8&qid=1412793786&sr=8-1&keywords=thinking+in+java) - chapter about Java concurrency is pretty good
+- [Java Concurrency in Practice](http://www.amazon.co.uk/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601/ref=sr_1_1?s=books&ie=UTF8&qid=1412793849&sr=1-1&keywords=java+concurrency+in+practice) - the most precise compendium about Java concurrency 
