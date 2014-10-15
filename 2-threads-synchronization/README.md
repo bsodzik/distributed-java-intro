@@ -1,4 +1,4 @@
-## Labs 1 - Threads - synchronization ##
+## Labs 2 - Threads - synchronization ##
 
 
 ### Goal ###
