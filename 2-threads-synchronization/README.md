@@ -88,7 +88,7 @@ Using `java.util.concurrent.atomic.AtomicLong` (see [Javadoc](http://docs.oracle
 Securing invocation of several methods using `synchronized` keyword
 
 1. Get familiar with `EvenCheckingTask` class. The general idea behind this class is to increment counter twice and check if counter value is even.
-2. Execute `main` method with each implementation of counter (`SynchronizedCounter`, `LockingCounter` and `AtomicCOunter`). Observe output.
+2. Execute `main` method with each implementation of counter (`SynchronizedCounter`, `LockingCounter` and `AtomicCounter`). Observe output.
 3. Identify critical section in `EvenCheckingTask` class. Secure it using `synchronized` keyword. Remember that critical section should be as small as possible. For synchronization use object with as small range as necessary.
 4. What other mechanism could be used to synchronize block of code? Try to use `ReentrantLock`. Make sure you don't create separate `ReentrantLock` instance for each thread.
 
