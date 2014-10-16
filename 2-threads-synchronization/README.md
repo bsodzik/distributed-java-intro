@@ -14,7 +14,7 @@
 
 The biggest problem in concurrent applications is caused by the fact that multiple threads can access the same *resource* at the same time. One example of such resource is computer memory, more precisely a variable stored in the memory.
 
-Let's imagine that two objects want to increment the same variable. First, each of them have to read the variable's value from the memory, then increase that value by one and finally write new value to the memory. In sequential program that is not a problem because objects increment the value one after the other.
+Let's imagine that two objects want to increment the same variable. First, each of them have to read the variable's value from the memory, then increase that value by one and finally write new value to the memory. In sequential application it is straightforward because objects increment the value one after the other.
 
 However, in concurrent application it is possible that two separate threads would read the variable's value from the memory before any of them actually writes incremented value to the memory. 
 
@@ -31,7 +31,7 @@ Concurrent code:
 A [read: 5] ----------------------> [inc: +1] ---------> [write: 6]
 B --------> [read: 5] --> [inc: +1] --------> [write: 6]
 ```
-Presented situation is called `race condition`. The most important aspect of concurrent programming is the ability to detect sections of code with potential race conditions and secure them. Sections where race conditions happen are called `critical secions`.
+Presented situation is called `race condition`. The most important aspect of concurrent programming is the ability to detect sections of code with potential race conditions and secure them. Sections where race conditions happen are called `critical sections`.
 
 
 #### Securing critical sections in Java ####
