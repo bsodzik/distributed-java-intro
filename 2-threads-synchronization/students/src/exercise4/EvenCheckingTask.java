@@ -11,7 +11,7 @@ public class EvenCheckingTask implements Runnable {
         this.counter = counter;
         this.numberOfIterations = numberOfIterations;
     }
-
+    
     @Override
     public void run() {
         for (int i = 0; i < numberOfIterations; ++i) {
