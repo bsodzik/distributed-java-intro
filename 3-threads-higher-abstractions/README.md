@@ -17,7 +17,7 @@ Using `java.util.concurrent.locks.Condition` (see [Javadoc](http://docs.oracle.c
 
 It can be said that `Lock` interface is a replacement for `synchronized` keyword and methods `await`, `signal`, `signalAll` from `Condition` are replacements for `wait`, `notify`, `notifyAll` from `Object`.
 
-The problem to solve in this example is the same as in last exercise from [previous](./2-threads-synchronization) lab.
+The problem to solve in this example is the same as in last exercise from previous lab.
 
 1. Execute `main` method to observe that `IllegalStateException` indeed is thrown for some painters
 2. Create `Condition` instances in both `Paints` and `Brushes` classes
