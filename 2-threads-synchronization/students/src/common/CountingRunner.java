@@ -11,12 +11,13 @@ public class CountingRunner {
 
     public void execute(Counter counter) throws InterruptedException {
         ExecutorService executors = Executors.newCachedThreadPool();
+        CountInMillis c = new CountInMillis();
         for (int i = 0; i < numberOfThreads; ++i) {
             executors.execute(new CountingTask(counter, numberOfIterations));
         }
         executors.shutdown();
         executors.awaitTermination(30, TimeUnit.SECONDS);
-
-        System.out.println("Actual: " + counter.getValue() + ", Expected: " + (numberOfThreads * numberOfIterations));
+        long exitTime = c.getMillis();
+        System.out.println("Actual: " + counter.getValue() + ", Expected: " + (numberOfThreads * numberOfIterations) + "; t:"+exitTime);
     }
 }
