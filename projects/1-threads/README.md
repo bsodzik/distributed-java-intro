@@ -78,5 +78,5 @@ Several events must be logged to `System.out` in order to make analysis of worki
 - Project should be created in *students* directory. There are no classes provided by the tutor.
 - The deadline is midnight of 16th of November 2014 (16.11.2014 24:00).
 - If you want to commit your solution earlier without revealing it to other students you can send it by email to [bsodzik@tlen.pl](mailto:bsodzik@tlen.pl).
-- If you have general questions to the project please create new issue on github and label it as `help wanted`
+- If you have general questions to the project please create new issue on github and label it as `help wanted`.
 - Good luck and have fun!
