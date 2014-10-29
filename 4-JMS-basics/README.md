@@ -42,7 +42,7 @@
     - [Akka](http://akka.io/)
     - [ZeroMQ](http://zeromq.org/)
     - [Kafka](http://kafka.apache.org/)
-    - **Question: can we use [Advanced Message Queuing Protocol](http://www.amqp.org/) protocol with [ActiveMQ](http://activemq.apache.org/amqp.html)**
+    - **Question: can we use [Advanced Message Queuing Protocol](http://www.amqp.org/) with [ActiveMQ](http://activemq.apache.org/amqp.html)**
 
 #### Exercise 1: Queue overview ####
 1. Check JMS [JavaDoc](http://docs.oracle.com/javaee/7/api/javax/jms/package-summary.html): 
