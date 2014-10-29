@@ -26,7 +26,7 @@
     - in JMS communication is asynchronous and reliable
 
 4. [What is JMS good for?](http://stackoverflow.com/questions/222017/what-is-jms-good-for)
-    - data synchronisation
+    - data synchronization
     - real time
     - notifying (we need to propagate information about new employee to all company systems)
     - async processing (we want to process multiple "commands" on remote services in asynchronous fashion)
