@@ -95,8 +95,8 @@
     - interact with SayMain console
     - **explain HelloMain behaviour**
 
-#### Exercise 3: JMS headers####
-[JMS headers](http://docs.oracle.com/javaee/7/api/javax/jms/Message.html)
+#### Exercise 3: [JMS headers](http://docs.oracle.com/javaee/7/api/javax/jms/Message.html)####
+
     - JMSDestination
     - JMSDeliveryMode
     - JMSExpiration
