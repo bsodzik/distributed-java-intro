@@ -19,9 +19,8 @@
     - point-to-point: point to point model allows JMS clients to send and receive messages via virtual channels known as queues. Given queue may have multiple receivers, but only one receiver may consume each message.
 
 3. [What Is the JMS API?](http://docs.oracle.com/javaee/6/tutorial/doc/bncdr.html)
-    - JMS is an API
     - allows to create, send, receive, and read messages
-    - its for programs written in the Java 
+    - it's for programs written in the Java 
     - JMS is vendor independent
     - in JMS communication is asynchronous and reliable
 
@@ -56,12 +55,12 @@
     - [javax.jms.TextMessage](http://docs.oracle.com/javaee/7/api/javax/jms/TextMessage.html)
 2. implement pl.edu.amu.dji.jms.exercise1.SayMain
     - follow with comments in code
-    - ask question
+    - ask questions
     - this class should produce messages for "SayHelloQueue" queue
 
 3. implement pl.edu.amu.dji.jms.exercise1.HelloMain
     - follow with comments in code
-    - ask question
+    - ask questions
     - this class should consume messages for "SayHelloQueue" queue
 
 4. Run 
