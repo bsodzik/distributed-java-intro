@@ -12,7 +12,7 @@ public class HelloMain {
         Create Connection instance from ConnectionFactory
 
         Create Session instance from connection object.
-        - Session shouldn't by transactional and should by in auto acknowledge mode (Session.AUTO_ACKNOWLEDGE).
+        - session shouldn't by transactional and should by in auto acknowledge mode (Session.AUTO_ACKNOWLEDGE).
 
         Create Destination queue from session (check Session class and createQueue method)
         - queue name should be "SayHelloQueue"
@@ -31,10 +31,10 @@ public class HelloMain {
         Create MessageConsumer instance from session (check Session class and createConsumer method)
 
         Implement onMessage in MessageListener interface
-        - Check if message is in proper type (see message type in Say class) by instanceof
-        - Get text from message (remember to cat message to proper type)
-        - Print message text to sysout
-        - Don't forgot to handle JMSException
+        - check if message is in proper type (see message type in Say class) by instanceof
+        - get text from message (remember to cast message to proper type)
+        - print message text to sysout
+        - don't forget to handle JMSException
          */
         MessageListener helloListener = new MessageListener() {
             @Override
