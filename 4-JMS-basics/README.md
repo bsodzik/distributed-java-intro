@@ -131,3 +131,6 @@
 2. In HelloMain print this property and  write message selector based to filter only messages with this new property
     - check parameters for  session.createConsumer(...)
     - selectors are based on SQL-92 conditional expressions (in example "dots = true" for boolean parameter with name "dots")
+    
+
+##[Feedback](http://goo.gl/forms/DFVaS11aGR)##
