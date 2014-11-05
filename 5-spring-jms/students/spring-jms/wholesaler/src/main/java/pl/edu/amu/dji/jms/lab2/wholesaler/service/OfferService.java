@@ -4,9 +4,6 @@ import org.springframework.jms.core.JmsTemplate;
 
 import javax.jms.Destination;
 
-/**
- * User: mateuszjancy Date: 11/4/14 5:08 PM
- */
 public class OfferService {
 
     private JmsTemplate jmsTemplate;
