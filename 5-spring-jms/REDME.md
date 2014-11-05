@@ -62,7 +62,7 @@ Spring specific:
     - Create pl.edu.amu.dji.jms.lab2.retailer.service.BuyService (with buyService as a id)
         - Set all properties
     - Create org.springframework.jms.listener.SimpleMessageListenerContainer
-        - Set messageListener property to buyService (<property name="messageListener" ref="buyService"/>)
+        - Set messageListener property to buyService
         - Set connectionFactory property to connectionFactory
         - Set destination to offerTopic
 
@@ -73,7 +73,7 @@ Spring specific:
 - Go to /context.xml
     - Create pl.edu.amu.dji.jms.lab2.wholesaler.service.OrderService bean (with orderService as a id)
     - Create org.springframework.jms.listener.SimpleMessageListenerContainer
-        - Set messageListener property to buyService (<property name="messageListener" ref="orderService"/>)
+        - Set messageListener property to buyService
         - Set connectionFactory property to connectionFactory
         - Set destination to orderQueue
 
