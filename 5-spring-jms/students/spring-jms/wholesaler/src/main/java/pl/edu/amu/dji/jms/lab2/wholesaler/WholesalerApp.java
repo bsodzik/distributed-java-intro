@@ -8,9 +8,6 @@ import pl.edu.amu.dji.jms.lab2.wholesaler.service.OfferService;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-/**
- * Hello world!
- */
 public class WholesalerApp {
     public static final String EXIT = "exit";
 
