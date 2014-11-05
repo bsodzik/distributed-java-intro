@@ -1,12 +1,12 @@
 ## Labs 5 - Spring JMS ##
 
 ### Requirements ###
-- Run linux on UAM workstation
-- Use idea intellij
+- Run Linux on UAM workstation
+- Use IntelliJ IDEA
 
 ### Goal ###
 - Get familiar with basic concept of spring application context
-- Get familiar with complex JMS java code
+- Get familiar with complex JMS Java code
 
 #### Spring Framework introduction ####
 - Comprehensive programming and configuration model 
