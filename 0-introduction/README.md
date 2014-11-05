@@ -19,8 +19,7 @@
 2. Java Messaging System (JMS)
   - JMS Message
   - Topic/Queue
-  - Durable message
-  - Persistent message
+  - Spring and JMS
   - Transactions
 3. REST services as communication for MicroServices
   - Expose REST API
