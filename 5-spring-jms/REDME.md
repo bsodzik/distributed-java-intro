@@ -30,7 +30,7 @@ Spring specific:
     - [destination](http://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/jms/listener/AbstractMessageListenerContainer.html#setDestination-javax.jms.Destination-)
 - [MessageCreator](http://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/jms/core/MessageCreator.html)
 
-#### (User Stories)[http://en.wikipedia.org/wiki/User_story] ####
+#### [User Stories](http://en.wikipedia.org/wiki/User_story) ####
 - As a OfferService I want to publish offer on "offerTopic" topic 
     - message should contain "buyQueue" for retailers to response (in javax.jms.Message#setJMSReplyTo) and price (Double)
 - As a OrderService I want to receive all offers from "offerTopic" topic
