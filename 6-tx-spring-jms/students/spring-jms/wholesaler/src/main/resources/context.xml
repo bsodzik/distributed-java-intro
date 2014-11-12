@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           ">
+
+    <bean id="connectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory">
+        <property name="brokerURL" value="tcp://localhost:61616"/>
+    </bean>
+
+    <bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate">
+        <property name="connectionFactory" ref="connectionFactory"/>
+    </bean>
+
+    <bean id="orderQueue" class="org.apache.activemq.command.ActiveMQQueue">
+        <constructor-arg value="orderQueue"/>
+    </bean>
+
+    <bean id="offerTopic" class="org.apache.activemq.command.ActiveMQTopic">
+        <constructor-arg value="offerTopic"/>
+    </bean>
+
+    <bean id="messageListenerContainer" class="org.springframework.jms.listener.SimpleMessageListenerContainer">
+        <property name="messageListener" ref="orderService"/>
+        <property name="connectionFactory" ref="connectionFactory"/>
+        <property name="destination" ref="orderQueue"/>
+    </bean>
+
+    <!-- consumer -->
+    <bean id="orderService" class="pl.edu.amu.dji.jms.lab2.wholesaler.service.OrderService"/>
+
+    <!-- producer -->
+    <bean id="offerService" class="pl.edu.amu.dji.jms.lab2.wholesaler.service.OfferService">
+        <property name="jmsTemplate" ref="jmsTemplate"/>
+        <property name="offerTopic" ref="offerTopic"/>
+        <property name="orderQueue" ref="orderQueue"/>
+    </bean>
+</beans>
