@@ -1,0 +1,70 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>pl.edu.amu.dji.jms.lab4</groupId>
+    <artifactId>supermarket</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>jms-server</module>
+        <module>pointofsales</module>
+        <module>warehouse</module>
+        <module>analysis</module>
+        <module>common</module>
+        <module>prototype</module>
+    </modules>
+    <packaging>pom</packaging>
+
+    <name>supermarket</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <org.springframework.version>4.1.1.RELEASE</org.springframework.version>
+        <org.apache.activemq>5.9.0</org.apache.activemq>
+        <org.apache.commons>3.3.2</org.apache.commons>
+        <com.google.guava>18.0</com.google.guava>
+    </properties>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>org.apache.activemq</groupId>
+            <artifactId>activemq-broker</artifactId>
+            <version>${org.apache.activemq}</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.activemq</groupId>
+            <artifactId>activemq-kahadb-store</artifactId>
+            <version>${org.apache.activemq}</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.activemq</groupId>
+            <artifactId>activemq-spring</artifactId>
+            <version>${org.apache.activemq}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jms</artifactId>
+            <version>${org.springframework.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>${com.google.guava}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${org.apache.commons}</version>
+        </dependency>
+
+    </dependencies>
+</project>
