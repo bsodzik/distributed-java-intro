@@ -73,8 +73,8 @@ Use Cases
 	- Check UI, report are printed per "sales information" message
 
 Project plan:
-- All clarifications need to be done until 27.11.2014
-- Implementation need to be done until 04.12.2014
+- All clarifications need to be done until 04.12.2014
+- Implementation need to be done until 11.12.2014
 - Send Source code to mateusz.jancy@gmail.com (mail should contain link to github/bitbucket repository or zip file with source code)
 
 ##[Feedback](http://goo.gl/forms/DmWOfcJnRV)##
