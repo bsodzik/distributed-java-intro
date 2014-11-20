@@ -20,6 +20,8 @@ public class PointOfSale {
     }
 
     public void updatePrice(String name, Double price) {
+        Preconditions.checkState(!products.isEmpty());
+
         products.put(name.toUpperCase(), price);
     }
 

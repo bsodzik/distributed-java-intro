@@ -21,6 +21,9 @@ public class App {
         warehouse.registerPointOfSale(pos3);
         warehouse.registerPointOfSale(pos4);
 
+        //Send full product list to POS
+        warehouse.sendProducts();
+
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
         System.out.println("Available products:");

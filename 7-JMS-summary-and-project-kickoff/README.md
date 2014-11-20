@@ -17,7 +17,7 @@
 #### JMS project planning ####
 System contains 4 separated components
 - Warehouse: single instance
-- Point of sales (POS): multiple instances
+- Point Of Sale (POS): multiple instances
 - Reporting: single instance
 - "supermarket/prototype" module is:
 	- Prototype implementation 
@@ -29,20 +29,21 @@ Requirements:
 - Warehouse 
 	- Contains product list
 	- User can change product price only in Warehouse 
-	- Warehouse is sending "price change" messages
-	- Warehouse is sending list of products as a reply to for "full product list" messages
+	- Is sending "price change" messages
+	- "price change" message is triggered by user manually from Warehouse command line UI
+	- Is sending "full product list" messages
+	- "full product list" message is triggered by user manually from Warehouse command line UI
 
-- Point of sale
+- Point Of Sale
 	- Contains product list
 	- Is receiving "price change" messages
-	- Is sending "full product list" messages
-	- Is receiving product list from Warehouse (as a response for "full product list" message)
-	- Is sending message with sales information to Reporting system
+	- Is receiving "full product list" messages
+	- Is sending "sales information" messages to Reporting system
 	- Sales is possible only if full product list is available locally
 
 - Reporting
 	- Counts all sales facts
-	- Is receiving all information about sale from Point of sales
+	- Is receiving "sales information" messages
 
 - General requirements
 	- Components will communicate with others only via JMS (Queue/Topic)
@@ -50,6 +51,26 @@ Requirements:
 	- POJO and message converters are nice to have. Common module can contains shared code
     - "mvn clean install" on top level is required to get changes from common module
     - Command line UI is ok
+
+Use Cases
+- Adding new Point Of Sale scenario
+	- Start new Point Of Sale
+	- Go to Warehouse command line UI
+	- Send "full product list" message to all Point Of Sales (new Point Of Sale is include)
+
+- Changing price:
+	- Go to Warehouse command line UI
+	- Select product and set new price for it
+	- "price change" message should be published automatically
+
+- Selling on Point Of Sale
+	- Go to Point Of Sale command line UI
+	- Select product to sale (by giving name) and press enter
+	- "sales information" message should be published automatically
+
+- Check reports
+	- Go to Reporting command line UI
+	- Check UI, report are printed per "sales information" message
 
 Project plan:
 - All clarifications need to be done until 27.11.2014

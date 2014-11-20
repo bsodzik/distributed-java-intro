@@ -27,12 +27,17 @@ public class Warehouse {
     }
 
     public void registerPointOfSale(PointOfSale pointOfSale) {
-        pointOfSale.initProducts(cloner.deepClone(PRODUCTS));
         pointOfSales.add(pointOfSale);
     }
 
     public void unregister(PointOfSale pointOfSale) {
         pointOfSales.remove(pointOfSale);
+    }
+
+    public void sendProducts() {
+        for (PointOfSale pointOfSale : pointOfSales) {
+            pointOfSale.initProducts(cloner.deepClone(PRODUCTS));
+        }
     }
 
     public void changePrice(String name, Double price) {
