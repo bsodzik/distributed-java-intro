@@ -77,4 +77,10 @@ Project plan:
 - Implementation need to be done until 11.12.2014
 - Send Source code to mateusz.jancy@gmail.com (mail should contain link to github/bitbucket repository or zip file with source code)
 
+##[To read]##
+- [Java Message Service](http://www.amazon.com/Java-Message-Service-David-Chappell-ebook/dp/B0026OR3JY/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1416472663&sr=1-1&keywords=jms)
+- [Spring Recipes: A Problem-Solution Approach (Expert's Voice in Open Source) ](http://www.amazon.com/Spring-Recipes-Problem-Solution-Approach-Experts-ebook/dp/B009IXMM1U/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1416472698&sr=1-1&keywords=spring+recipes&pebp=1416472701322)
+- [Enterprise Integration Patterns: Designing, Building, and Deploying Messaging Solutions (Addison-Wesley Signature Series (Fowler))](http://www.amazon.com/Enterprise-Integration-Patterns-Designing-Addison-Wesley-ebook/dp/B007MQLL4E/ref=tmm_kin_title_0?_encoding=UTF8&sr=1-1&qid=1416472613)
+- [Spring Integration Reference Manual](http://docs.spring.io/spring-integration/docs/4.1.1.BUILD-SNAPSHOT/reference/html/)
+
 ##[Feedback](http://goo.gl/forms/DmWOfcJnRV)##
