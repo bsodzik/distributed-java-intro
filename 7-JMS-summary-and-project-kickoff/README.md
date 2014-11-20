@@ -53,22 +53,22 @@ Requirements:
     - Command line UI is ok
 
 Use Cases
-- Adding new Point Of Sale scenario
+- Adding new Point Of Sale scenario (minimum requirement for 4.0):
 	- Start new Point Of Sale
 	- Go to Warehouse command line UI
 	- Send "full product list" message to all Point Of Sales (new Point Of Sale is include)
 
-- Changing price:
+- Changing price (minimum requirement for 5.0):
 	- Go to Warehouse command line UI
 	- Select product and set new price for it
 	- "price change" message should be published automatically
 
-- Selling on Point Of Sale
+- Selling on Point Of Sale (minimum requirement for 4.0):
 	- Go to Point Of Sale command line UI
 	- Select product to sale (by giving name) and press enter
 	- "sales information" message should be published automatically
 
-- Check reports
+- Check reports (minimum requirement for 4.0)
 	- Go to Reporting command line UI
 	- Check UI, report are printed per "sales information" message
 
