@@ -4,7 +4,7 @@
 - Run Linux on UAM workstation
 - Use IntelliJ IDEA
 
-### Goals: Get familiar with ###
+### Goals ###
 - JMS summary
 - JMS project planning
 - Q&A
