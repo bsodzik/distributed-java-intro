@@ -46,7 +46,7 @@ In general Spring Boot is:
         - How to map URI to the controller method?
 - You can always check Spring MVC [docs](http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html#mvc)
 
-** Spring RESTful Web Service example:**
+**Spring RESTful Web Service example:**
 
 - GET /users - all users: 
 
