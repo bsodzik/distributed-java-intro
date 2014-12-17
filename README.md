@@ -14,6 +14,7 @@ Introduction to distributed programming in Java
 - Labs 8 - [rest - basics](8-rest-basics/README.md)
 - Labs 9 - [rest - consumption](9-rest-consumption/README.md)
 - Labs 10 - [rest - web service](https://github.com/bsodzik/distributed-java-intro/blob/master/10-rest-web-service/README.md)
+- Labs 11 - [rest - web service advanced](https://github.com/bsodzik/distributed-java-intro/blob/master/11-rest-web-service-advanced/README.md)
 - Project 1 - [threads - "Charity Flea Market"](projects/1-threads/README.md)
 - Project 2 - [JMS - "Supermarket"](7-JMS-summary-and-project-kickoff/README.md)
 
