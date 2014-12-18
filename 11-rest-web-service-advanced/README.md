@@ -24,7 +24,7 @@
 
 	- Return review for given ISBN and id  */reviews/{isbn}/{id}*, throw ReviewWithInvalidIsbnException when isbn from path is not the same as in request body, throw ReviewNotFoundException if there is no review for given ID
 
-			curl -H 'Accept: application/json' -X GET -D - http://localhost:8090/books/reviews/1234567890/1
+			curl -H 'Accept: application/json' -X GET -D - http://localhost:8090/books/reviews/1234567890/1co
 
 	- Update review for given ISBN and id  */reviews/{isbn}/{id}*, throw ReviewWithInvalidIsbnException when isbn from path is not the same as in request body, throw ReviewNotFoundException if there is no review for given ID
 
@@ -38,7 +38,7 @@ Implementation hints:
 - For DB operation RESTful Review Web Service should use ReviewRepository, you can inject it by @Autowired annotation
 - Review class is mapped to REVIEW database table by [hibernate](http://hibernate.org/)
 - Application is using H2 in memory database
-- To access H2 web console go to [http://localhost:8090/console](http://localhost:8080/console). JDBC URL, user name and password are in /application.properties file (in resources folder)
+- To access H2 web console go to [http://localhost:8090/console](http://localhost:8090/console). JDBC URL, user name and password are in /application.properties file (in resources folder)
 - To start application run (or debug) ReviewConfiguration in IDE.
 - [Spring Java Based Configuration](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#beans-java) is in ReviewConfiguration class.
 	
