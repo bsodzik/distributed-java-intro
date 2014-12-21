@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+	<include resource="org/springframework/boot/logging/logback/base.xml"/>
+
+	<logger name="org.springframework" level="ERROR"/>
+	<logger name="org.springframework.web.client.RestTemplate" level="DEBUG"/>
+
+	<root level="ERROR">
+		<appender-ref ref="CONSOLE"/>
+	</root>
+
+</configuration>
