@@ -104,3 +104,6 @@ Actor system key components
 			greeter.tell(new Greeting("UAM"), ActorRef.noSender());
 
 
+**Resources**
+- (Documentation)[http://doc.akka.io/docs/akka/2.3.8/java.html?_ga=1.64629551.1445290926.1419011872]
+- (Tutorial)[http://www.typesafe.com/activator/template/hello-akka?_ga=1.64013743.1445290926.1419011872]
