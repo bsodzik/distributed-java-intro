@@ -16,6 +16,7 @@ Introduction to distributed programming in Java
 - Labs 10 - [rest - web service](https://github.com/bsodzik/distributed-java-intro/blob/master/10-rest-web-service/README.md)
 - Labs 11 - [rest - web service advanced](https://github.com/bsodzik/distributed-java-intro/blob/master/11-rest-web-service-advanced/README.md)
 - Labs 12 - [Akka - basics](https://github.com/bsodzik/distributed-java-intro/blob/master/12-akka-basics/README.md)
+- Labs 13 - [Akka - communication](13-akka-communication/README.md)
 - Project 1 - [threads - "Charity Flea Market"](projects/1-threads/README.md)
 - Project 2 - [JMS - "Supermarket"](7-JMS-summary-and-project-kickoff/README.md)
 
